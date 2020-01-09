@@ -1,0 +1,103 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.container {
+    width: 100%;
+    margin: 10px auto;
+}
+  
+.catalog {
+    max-width: 850px;
+    position: relative;
+    left: 30%;
+}
+  
+.item {
+    max-width: 230px;
+    min-width: 140px;
+    min-height: 420px;
+    padding: 10px;
+    border: 2px solid #ecf0f1;
+    display: inline-block;
+    margin: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.descript {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    display: inline-block;   
+}
+
+.item>div {
+    max-width: 230px;
+    max-height: 230px;
+    overflow: hidden;
+}
+
+.item>ul {
+    padding-top: 5px;
+}
+
+.item table {
+    padding-top: 5px;
+}
+
+.item:hover {
+    box-shadow: 0 0 25px rgb(122, 122, 122);
+    cursor: pointer;
+}
+
+.item:hover img {
+    position: relative;
+    right: 10px;
+    top: -10px;
+    width: 250px;
+    height: 250px;
+}
+
+.code {
+    text-align: right;
+    padding-bottom: 5px;
+}
+
+.col1 {
+    margin-top: 2px;
+    margin-left: 2px;
+    text-align: right;
+    width: 100px;
+    background-color: red;
+    color: rgb(180, 180, 180);
+}
+
+.col2 {
+    margin-top: 2px;
+    width: 120px;
+    text-align: left;
+    background-color: green;
+    color: black;
+}
+
+.col2.cena {
+    font-size: x-large;
+    font-weight: bolder;
+}
+  
